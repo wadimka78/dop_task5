@@ -1,17 +1,21 @@
 @font-face {
   font-family: 'BebasRegular';
-  src: url("./fonts/BebasRegular/BebasRegular.woff") format("woff"), url("./fonts/BebasRegular/BebasRegular.woff2") format("woff2");
+  src: url("./fonts/BebasRegular/BebasRegular.woff") format("woff"), url("./fonts/futura/BebasRegular.ttf") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: wrap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: url("./fonts/OpenSans/OpenSans.woff") format("woff"), url("./fonts/OpenSans/OpenSans.woff2") format("woff2");
+  font-family: 'Futura Demi';
+  src: url("../fonts/futura/FuturaDemiC.woff") format("woff"), url("../fonts/futura/FuturaDemiC.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: wrap;
+}
+
+.text-box {
+  color: red;
 }
 
 .text-box {
@@ -33,19 +37,7 @@ small {
   font-size: 1.3rem;
 }
 
-.result__font1 {
-  font-family: 'Open Sans';
-}
-
-.result__font2 {
+fonts__font1 {
   font-family: 'BebasRegular';
-}
-
-.result__font3 {
-  font-family: 'Bad Script';
-}
-
-.result__font4 {
-  font-family: 'Lobster';
 }
 /*# sourceMappingURL=style.css.map */
