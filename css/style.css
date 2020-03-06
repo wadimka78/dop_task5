@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'BebasRegular';
-  src: url("./fonts/BebasRegular/BebasRegular.woff") format("woff"), url("./fonts/BebasRegular/BebasRegular.woff2") format("woff2");
+  src: url("../fonts/BebasRegular/BebasRegular.woff") format("woff"), url("../fonts/BebasRegular/BebasRegular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: wrap;
@@ -10,7 +10,7 @@
 @font-face {
   font-family: 'BebasRegular_a';
   /*От Артёма*/
-  src: url("./fonts/BebasRegular_a/BebasRegular.woff2") format("woff2");
+  src: url("../fonts/BebasRegular_a/BebasRegular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: wrap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: url("./fonts/OpenSans/OpenSans.woff") format("woff"), url("./fonts/OpenSans/OpenSans.woff2") format("woff2");
+  src: url("../fonts/OpenSans/OpenSans.woff") format("woff"), url("../fonts/OpenSans/OpenSans.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: wrap;
