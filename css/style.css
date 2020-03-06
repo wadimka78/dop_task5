@@ -1,6 +1,16 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'BebasRegular';
   src: url("./fonts/BebasRegular/BebasRegular.woff") format("woff"), url("./fonts/BebasRegular/BebasRegular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap;
+}
+
+@font-face {
+  font-family: 'BebasRegular_a';
+  /*От Артёма*/
+  src: url("./fonts/BebasRegular_a/BebasRegular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: wrap;
@@ -41,11 +51,22 @@ small {
   font-family: 'BebasRegular';
 }
 
+.result__font2_1 {
+  font-family: 'BebasRegular_a';
+}
+
 .result__font3 {
   font-family: 'Bad Script';
 }
 
 .result__font4 {
   font-family: 'Lobster';
+}
+
+.select {
+  font-size: 26px;
+  font-family: 'Lobster';
+  font-weight: 600;
+  color: green;
 }
 /*# sourceMappingURL=style.css.map */
